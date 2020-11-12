@@ -10,6 +10,7 @@ class Caroucel extends React.Component {
         super(props);
         this.state = {  }
     }
+    
     render() { 
         return ( 
             <div  className="carousel slide" data-ride='carousel'  style={{zIndex:1}}>

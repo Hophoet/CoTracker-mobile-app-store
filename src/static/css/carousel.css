@@ -1,5 +1,5 @@
-#carousel__container {
-    background-color: #282c34;
+.home__container {
+    background-color: #262626;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -7,4 +7,8 @@
     justify-content: center;
     font-size: calc(10px + 2vmin);
     color: white;
+  }
+
+  .body {
+    margin: 0px;
   }

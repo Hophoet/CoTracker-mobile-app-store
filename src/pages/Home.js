@@ -1,21 +1,13 @@
-import logo from '../logo.svg';
-import '../App.css';
-import '../static/css/index.css'
-import '../static/css/carousel.css'
-import 'bootstrap/dist/css/bootstrap.css'
 
-// import 'bootstrap/js/src/carousel'
+//apk
+import apk from '../apk/CoTracker.apk'
 
-
-// import 'bootstrap/scss/'
-
-import Carousel from '../components/Caroucel'
+import Carousel from '../components/Carousel'
 
 function App() {
   return (
     <div className="home__container">
-      <h1>CoTracker</h1>
-      <Carousel/>
+      <Carousel apk={apk}/>
     </div>
   );
 }
